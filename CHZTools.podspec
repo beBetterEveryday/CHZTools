@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/beBetterEveryday/CHZTools.git", :tag => "1.0.0" }
 
-  s.source_files  = "Tools/**/*"
-
+  s.source_files  = "Tools/*.{h,m}"
+  s.platform     = :ios, '8.0'   
   s.frameworks = 'UIKit'
 end
 
